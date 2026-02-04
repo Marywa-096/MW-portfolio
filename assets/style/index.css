@@ -1,0 +1,164 @@
+
+
+:root{
+    --primary-color:#4c243b;
+    --secondary-color:#Ac7B84;
+    --auxilliary-color:#fff;
+    --padding-horizontal:100px;
+    --padding-horizontal:100px;
+    --card-background-color:#FFEFF2;
+
+}
+html,body{
+    margin: 0;
+    font-family: "poppis",sans-serif;
+}
+body,h1,h3,p{
+    margin: 0;
+    font-family:"poppins",sans-serif ;
+}
+nav{
+    background-color:  var(--primary-color);
+    display: flex;/*arranges a element  on one row*/
+    padding-left: var(--padding-horizontal);
+    padding-right: var(--padding-horizontal);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav>div>a{
+    color: #fff;
+    text-decoration: none;
+    font-size: medium;
+}
+nav>div>h1{
+    color: #fff;
+    margin-left: 4px;
+}
+.logo{
+    display: flex;
+}
+
+
+#homeSection{
+    display: flex;
+    height: 80vh;
+    padding-left:var(--padding-horizontal);
+    padding-right: var(--padding-horizontal);
+    align-items: center;
+}
+#homeSection>img{
+   aspect-ratio: 1/1;/*enabled uniformity a s it scale*/
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#homeSection>div{
+    padding-left: 120px;
+    margin: 30vw;
+}
+#homeSection>div>h1{
+    font-size: 64px;
+    margin: 0;
+    color: var(--primary-color);
+}
+#homeSection>div>p{
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 10px;
+    font-weight: 300;
+    color: var(--secondary-color);
+
+}
+#homeSection>div>button{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom:10px ;
+    padding-top: 12px;
+    border-radius: 50px;
+    transition:2s ;
+    }
+#homeSection>div>button:hover{
+   background-color: #4c243b; 
+    color: violet;
+    cursor: pointer;
+}
+#projectSection>.projects{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: var(--padding-horizontal);
+    padding-right: var(--padding-horizontal);
+}
+#projectSection>div>h1{
+    color: var(--primary-color);
+    font-size: 40px;
+    text-align: center;
+}
+#projectSection>div>p{
+    color: var(--secondary-color);
+   font-weight: 300; 
+   text-align: center;
+   margin: 0;
+} 
+#projectSection>.projects > .card{
+    background-color: #4c243b;
+    width: 311px;
+    height: 355px;
+    border-radius: 30px;
+    margin:12px ;
+    padding: 16px;
+}
+#projectSection>div>button{
+ background-color: var(--primary-color);
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom:10px ;
+    padding-top: 12px;
+    border-radius: 50px;
+    transition:2s ;
+}
+#projectSection>div>button:hover{
+    cursor: pointer;
+    background-color: #4c243b;
+color: blue;
+    
+    
+}
+#projectSection>.projects >.card>img{
+    width: 100%;
+    height: 158px;
+    aspect-ratio: 1/1;
+   object-fit: cover;
+   border-radius: 30px;
+   margin-left: 16px;
+   margin-right: 16px;
+   margin-top: 16px; 
+
+}
+#projectSection>.projects>.card>button{
+ color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom:10px ;
+    padding-top: 12px;
+    border-radius: 50px;
+    transition:2s ;
+   background-color: var(--primary-color); 
+}
+#projectSection>.projects>.card>h3{
+font-size: 20px;
+color: var(--primary-color);
+margin-top: 16px;
+}
+#projectSection>.projects>.card>p{
+    color: var(--secondary-color);
+    font-size: 12px;
+    margin-top: 12px;
+}

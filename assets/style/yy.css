@@ -1,0 +1,149 @@
+:root{
+--primary-color:#4c243b;
+--secondary-color:#Ac7BB4;
+--auxilliary-color:#fff;
+--padding-horizontal:100px;
+}
+body{
+  margin: 0;
+  font-family: "poppins",serif; 
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  color: #fff;
+}
+nav{
+  border-bottom: var(--primary-color);
+  display: flex;
+  padding-left: var(--padding-horizontal);
+  padding-right: var(--padding-horizontal);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+  background-color: #4c243b;
+}
+nav>.logo{
+ display: flex;
+ padding: 20px; 
+}
+nav>div>a{
+  color: #fff;
+  text-decoration: none;
+  font-size: larger;
+}
+nav>div>h1{
+
+  color: aqua;
+  margin-left: 4px;
+}
+#homeSection{
+  display: flex;
+  padding-left:var(--padding-horizontal) ;
+  padding-right: var(--padding-horizontal);
+  align-item: center;
+}
+#homeSection>img{
+  width: 450px;
+  height: 250px;
+  border-radius: 30;
+  aspect-ratio: 1/1;/*enabled uniformity a s it scale*/
+  box-shadow:10px ;
+}#homeSection>div{
+  padding-left: 120px;
+  width: 30;
+}
+#homeSection>div>h1{
+font-size: 64px;
+margin: 0;
+color:aqua
+}
+#homeSection>div>p{
+  font-size: 20px;
+  margin: 0;
+  padding-bottom: 20px;
+  font-weight: 250;
+  color: var(--secondary-color);
+}
+#homeSection>div>button{
+  background-color: var(--secondary-color);
+  color:#fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 16px;
+  padding-bottom: 16px;
+  border-radius: 50;
+  transition: 2s;
+}
+#homeSection>div>button:hover{
+  color: darkviolet;
+  cursor: pointer;
+  background-color: aqua;
+}
+.shoppingIcy{
+  color: aqua;
+  padding-bottom: 20px;
+  padding-right: var(--padding-horizontal);
+  padding-left: var(--padding-horizontal);
+}
+#yummySection{
+  display: flex;
+  background-color: gold;
+}
+#yummySection>div>h1{
+color: #4c243b;
+font-size: 40;
+text-align: center;  
+}
+#yummySection>div>p{
+ color: aqua;
+ text-align: center;
+ margin: 0;
+ font-weight: 300;
+ background-color: #4c243b;
+}
+#yummySection>.icyDesign{
+ background-color: #4c243b;
+    width: 311px;
+    height: 355px;
+    border-radius: 30px;
+    margin:12px ;
+    padding: 16px;
+}
+#yummySection>.icyDesign>img{
+    height: 158px;
+    width: 100%;
+    aspect-ratio: 1/1;
+   object-fit: cover;
+   border-radius: 30px; 
+
+}
+#yummySection>.icyDesign>h3{
+  font-size: 20px;
+color: var(--secondary-color);
+ 
+}
+#yummySection>.icyDesign>p{
+ color: var(--secondary-color);
+    font-size: 12px; 
+}
+#yummySection>.icyDesign>button{
+  color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom:10px ;
+    padding-top: 12px;
+    border-radius: 50px;
+    transition:2s ;
+   background-color: var(--primary-color);
+}
+#yummySection>.icyDesign>button:hover{
+  color: chartreuse;
+  cursor: pointer;
+  background-color: #fff;
+}
+footer{
+  color: cyan;
+}
+
+

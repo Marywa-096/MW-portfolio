@@ -162,3 +162,130 @@ margin-top: 16px;
     font-size: 12px;
     margin-top: 12px;
 }
+#contactSection{
+    padding-left: var(--padding-horizontal);
+    padding-right: var(--padding-horizontal);
+    height: 60vh;
+}
+#contactSection>form{
+    padding: 24px;
+    background-color: cyan;
+    width: 60vw;
+    border-radius: 30px;
+    margin: auto;   
+}
+#contactSection>form>.usermessage{
+    margin-top: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+#contactSection>form>.userEmailName,.userBirthdayAge{
+    display: flex;
+}
+#contactSection>form>.userEmailName,.userBirthdayAge>div>label{
+    font-weight: 500;
+    color: var(--primary-color);
+}
+#contactSection>form>.userEmailName>div>input{
+    all: unset;
+    border-radius: 12px;
+    width: 25vw;
+    background-color: white;
+    padding-left: 16PX;
+    padding-right: 16PX;
+    padding-bottom: 4PX;
+    padding-top: 4px;
+    display: flex;
+    font-size: 12PX;
+    height: 30px
+}
+#contactSection>form>.userBirthdayAge>div>input{
+    all: unset;
+    border-radius: 12px;
+    width: 25vw;
+    background-color: white;
+    padding-left: 16PX;
+    padding-right: 16PX;
+    padding-bottom: 4PX;
+    padding-top: 4px;
+    display: flex;
+}
+#contactSection>form>h1{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: var(--primary-color);
+}
+#contactSection>form>div{
+    margin-top: 16px;
+    padding-right: 12px;
+    padding-right: 12px;
+    
+}
+#contactSection>form>div>label{
+    font-weight: 500;
+    color: deeppink;
+}
+#contactSection>form>div>input{
+    all:unset;
+    border-radius: 12px;
+    background-color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 12px;
+    margin-top: 8px;
+    width: 90%;
+}
+#contactSection>form>div>textarea{
+ all:unset;
+    border-radius: 12px;
+    background-color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 12px;
+    width: 100%;
+    height: 100px;
+}
+#contactSection>form>button{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom:10px ;
+    padding-top: 12px;
+    border-radius: 50px;
+    transition:2s ;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+#contactSection>form>button:hover{
+    cursor: pointer;
+    background-color: deeppink;
+    color: chartreuse;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
